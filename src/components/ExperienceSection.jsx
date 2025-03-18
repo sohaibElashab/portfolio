@@ -137,7 +137,7 @@ const ExperienceSection = () => {
                       </div>
                     </div>
 
-]                    <p className="md:hidden text-sm text-gray-500 dark:text-gray-500 mb-4">
+                    <p className="md:hidden text-sm text-gray-500 dark:text-gray-500 mb-4">
                       {exp.period}
                     </p>
 

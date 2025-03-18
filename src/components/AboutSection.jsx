@@ -46,7 +46,7 @@ const AboutSection = () => {
                 >
                   <img
                     src="./assets/profile.jpg"
-                    alt="Your Name"
+                    alt="Sohaib ELASHAB"
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -59,7 +59,7 @@ const AboutSection = () => {
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                  Your Name
+                  Sohaib ELASHAB
                 </h3>
                 <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">
                   Front-End Developer

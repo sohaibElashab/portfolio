@@ -42,14 +42,6 @@ const HeroSection = ({ handleHover, social }) => {
     typeMessage();
   }, []);
 
-  const downloadPDF = () => {
-    const pdfUrl = "/assets/EALSHAB-SOHAIB.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "your-file.pdf";
-    link.click();
-  };
-
   return (
     <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
@@ -135,8 +127,8 @@ const HeroSection = ({ handleHover, social }) => {
             </motion.div>
 
             {/* CV Button */}
-            <motion.button
-              onClick={() => downloadPDF()}
+            <motion.a
+              href="https://drive.google.com/file/d/1UbyYpxebbaFPbSCsx5whEyqX_Y_KXfkT/view?usp=sharing"
               className="w-fit flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-full transition-all"
               onMouseEnter={() => handleHover(true)}
               onMouseLeave={() => handleHover(false)}
@@ -149,7 +141,7 @@ const HeroSection = ({ handleHover, social }) => {
               >
                 <Download className="w-4 h-4" />
               </motion.div>
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Terminal Effect */}

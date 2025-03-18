@@ -129,6 +129,7 @@ const HeroSection = ({ handleHover, social }) => {
             {/* CV Button */}
             <motion.a
               href="https://drive.google.com/file/d/1UbyYpxebbaFPbSCsx5whEyqX_Y_KXfkT/view?usp=sharing"
+              target="_blank"
               className="w-fit flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium rounded-full transition-all"
               onMouseEnter={() => handleHover(true)}
               onMouseLeave={() => handleHover(false)}

@@ -18,9 +18,9 @@ const Nav = ({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navItems = [
     { id: "about", label: "About", icon: User },
-    { id: "skills", label: "Skills", icon: Code },
     { id: "experience", label: "Experience", icon: Briefcase },
     { id: "projects", label: "Projects", icon: GraduationCap },
+    { id: "skills", label: "Skills", icon: Code },
     { id: "contact", label: "Contact", icon: MessageSquare },
   ];
 

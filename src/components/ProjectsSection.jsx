@@ -32,7 +32,7 @@ const ProjectsSection = ({ handleHover }) => {
   ];
 
   return (
-    <section className="py-24 bg-gray-50 dark:bg-gray-800">
+    <section id="projects" className="py-24 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4 max-w-6xl flex flex-col items-center">
         <motion.div
           className="text-center mb-16"

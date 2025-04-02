@@ -4,9 +4,22 @@ import { Briefcase, Clock, MapPin } from "lucide-react";
 const experiences = [
   {
     title: "Front-End Developer",
+    company: "LoftyService",
+    location: "Marrakech",
+    period: "Feb 2025 – Present",
+    achievements: [
+      "Enhanced UI consistency and usability by fixing design inconsistencies and improving responsiveness across various devices",
+      "Developed a dynamic eCommerce builder page, enabling users to create and customize their online stores with an intuitive drag-and-drop interface",
+      "Resolved critical front-end bugs that improved website stability and user experience, reducing reported UI issues by a significant margin",
+      "Optimized application performance by refactoring code, implementing lazy loading, and reducing unnecessary re-renders",
+      "Collaborated with designers and backend developers to streamline workflows and ensure seamless integration of new features",
+    ],
+  },
+  {
+    title: "Front-End Developer",
     company: "Niloom.ai",
     location: "New York",
-    period: "Jan 2023 – Present",
+    period: "Jan 2023 – Feb 2025",
     achievements: [
       "Developed and maintained dynamic front-end features using Vue.js, React.js, and Next.js, ensuring seamless user interactions",
       "Integrated AI-driven features into the platform, enhancing automation and user experience through machine learning models",

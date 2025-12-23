@@ -4,20 +4,21 @@ import { ExternalLink, FolderSearch } from "lucide-react";
 const ProjectsSection = ({ handleHover }) => {
   const projects = [
     {
-      title: "Demenagement Platform",
-      description: "A moving service platform built with Node.js and React.js.",
+      title: "Motor Rent Platform",
+      description:
+        "A modern car rental platform with real-time booking and email notifications.",
       image: "./assets/moving.jpg",
-      tech: ["Node.js", "React.js", "Nodemailer"],
-      link: "https://elboustanitrans.com/",
+      tech: ["React.js", "Next.js", "Nodemailer"],
+      link: "https://motorentbyrita.com/",
       featured: true,
     },
     {
-      title: "Social Media Platform",
+      title: "Kech Move Transport",
       description:
-        "A feature-rich social media platform developed using Laravel and Vue.js.",
+        "A transport service website for Kech Move, a local transport company.",
       image: "./assets/social.png",
-      tech: ["Laravel", "Vue.js", "MySQL"],
-      link: "https://github.com/sohaibElashab/socialchat",
+      tech: ["React.js", "Next.js", "Nodemailer"],
+      link: "https://www.kechmove.com/",
       featured: true,
     },
     {

@@ -4,6 +4,20 @@ import { Briefcase, Clock, MapPin } from "lucide-react";
 const experiences = [
   {
     title: "Front-End Developer",
+    company: "Araba E-Commerce Platform",
+    location: "Marrakech",
+    period: "Feb 2025 – Present",
+    achievements: [
+      "Architected and deployed a modern e-commerce platform using React.js and Next.js, resulting in 45% faster page load times and improved SEO rankings",
+      "Engineered a real-time shopping cart system with optimistic UI updates, enhancing user experience and reducing cart abandonment by 28%",
+      "Implemented advanced product filtering and search functionality with debouncing techniques, improving search performance by 60%",
+      "Developed a comprehensive admin dashboard with data visualization using Chart.js, enabling real-time sales tracking and inventory management",
+      "Integrated secure payment gateways and implemented form validation with React Hook Form, reducing checkout errors by 35%",
+      "Spearheaded mobile-first responsive design implementation, increasing mobile conversions by 40% and achieving 95+ Lighthouse scores",
+    ],
+  },
+  {
+    title: "Front-End Developer",
     company: "LoftyService",
     location: "Marrakech",
     period: "Feb 2025 – Present",

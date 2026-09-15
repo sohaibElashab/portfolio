@@ -6,7 +6,7 @@ const experiences = [
     title: "Front-End Developer",
     company: "Araba E-Commerce Platform",
     location: "Marrakech",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – May 2026",
     achievements: [
       "Architected and deployed a modern e-commerce platform using React.js and Next.js, resulting in 45% faster page load times and improved SEO rankings",
       "Engineered a real-time shopping cart system with optimistic UI updates, enhancing user experience and reducing cart abandonment by 28%",
@@ -20,7 +20,7 @@ const experiences = [
     title: "Front-End Developer",
     company: "LoftyService",
     location: "Marrakech",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – May 2026",
     achievements: [
       "Enhanced UI consistency and usability by fixing design inconsistencies and improving responsiveness across various devices",
       "Developed a dynamic eCommerce builder page, enabling users to create and customize their online stores with an intuitive drag-and-drop interface",

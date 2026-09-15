@@ -3,6 +3,18 @@ import { Briefcase, Clock, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    title: "Full-Stack Web Developer",
+    company: "Freelance",
+    location: "Remote / Marrakech",
+    period: "May 2026 – Present",
+    achievements: [
+      "Architect and build custom, high-performance web applications leveraging React.js, Next.js, Vue.js, and Node.js tailored to client requirements",
+      "Integrate advanced AI tools into the development workflow to accelerate code generation, automate code reviews, and streamline debugging",
+      "Deliver reliable, scalable, and maintainable full-stack solutions with focus on clean architecture, optimal performance, and intuitive UI/UX design",
+      "Conduct end-to-end code reviews, refactoring, and security checks to guarantee top-tier application stability and seamless deployment",
+    ],
+  },
+  {
     title: "Front-End Developer",
     company: "Araba E-Commerce Platform",
     location: "Marrakech",
